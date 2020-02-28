@@ -16,17 +16,15 @@ defined('_JEXEC') or die('Restricted access');
 jimport('joomla.filesystem.file');
 jimport('joomla.filesystem.folder');
 use Joomla\CMS\Factory;
-use Joomla\CMS\Access\Access;
 use Joomla\CMS\Cache\Cache;
 use Joomla\CMS\Component\ComponentHelper;
 use Joomla\CMS\Dispatcher\Dispatcher;
-use Joomla\CMS\Table\Table;
-use Joomla\CMS\Installer\InstallerScript;
-use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Filesystem\File;
-use Joomla\CMS\Filesystem\Path;
-use Joomla\CMS\Language\Text;
 use Joomla\CMS\Filesystem\Folder;
+use Joomla\CMS\Filesystem\Path;
+use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Table\Table;
 // create a link like https://opentranslators.transifex.com/projects/p/joomleague/language/en_GB/
 function createTXLink($lang) {
 	return '<a href="https://opentranslators.transifex.com/projects/p/joomleague/language/'.$lang.'/" target="_blank">'.$lang.'</a>';
