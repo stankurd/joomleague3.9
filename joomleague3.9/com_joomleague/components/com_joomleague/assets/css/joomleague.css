@@ -1,0 +1,58 @@
+div.joomleague {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1,5em;
+	/*overflow: auto;*/
+	/*if you like rounded corners uncomment
+	-moz-border-radius: 20px 20px 20px 20px; 
+	padding: 10px; 
+	border: 1px solid #f2f2f2;
+	*/
+}
+
+div.joomleague .jl_listing_item {
+	text-align: left;
+	font-weight: bold;
+	float: left;
+	vertical-align: middle;
+}
+
+div.joomleague .jl_listing_value {
+	text-align: left;
+	float: right;
+	vertical-align: middle;
+}
+
+div.joomleague .jl_defaultview_spacing {
+	height: 25px;
+	width: 100%;
+	float: left;
+}
+
+.label {
+	font-size:16px;
+	font-weight: bold;
+	color: #000000;
+}
+div.joomleague .copyright {
+	text-align: center;
+	font-size:9px;
+	float:none;
+	clear:both;
+}
+.joomleague .pageslinks ul li {
+	float: left;
+	display: block;	
+}
+.buttonheading {
+	float: right;
+}
+.contentheading{
+	font-size:21px;
+	font-weight: bold;
+}
+
+th {
+	background: #f5f5f5;
+	/*color: #eee;*/
+	font-weight: bold;
+}
